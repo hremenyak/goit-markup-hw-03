@@ -18,10 +18,10 @@
 
   <body>
     <!-- Header-->
-    <header class="page-header container">
+    <header class="page-header">
       <!-- Navigation-->
-      <nav class="site-nav">
-        <a href="./index.html" class=" site-nav logo">Web<span class="logo-black">Studio</span> </a>
+      <div class="container"> <nav class="site-nav">
+        <a href="./index.html" class="header-logo logo">Web<span class="logo-black">Studio</span> </a>
         <ul class="site-nav-list list">
           <li class="site-nav-item"><a href="./index.html" class="site-nav-link current">Студия</a></li>
           <li class="site-nav-item"><a href="./portfolio.html" class="site-nav-link">Портфолио</a></li>
@@ -31,19 +31,21 @@
       <ul class="contacts list">
         <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-info">info@devstudio.com</a></li>
         <li class="contacts-item"><a href="tel:+380961111111" class="contacts-info">+38 096 111 11 11</a></li>
-      </ul>
+      </ul></div>
+      
     </header>
     <main>
       <!--Hero-->
       <section class="hero">
-        <h1 class="hero-title">
+        <div class="container"> <h1 class="hero-title">
           ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+        <button type="button" class="hero-button">Заказать услугу</button></div>
+       
       </section>
 
-      <section class="section with-padding">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наші особливості</h2>
           <ul class="features list">
@@ -76,27 +78,27 @@
         <!--Features-->
       </section>
 
-      <section class="section with-padding no-padding">
+      <section class="section no-padding">
         <!--Our work-->
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="work list">
             <li class="work-example">
-              <img class="work-image"
+              <img
                 src="./images/our-work/img(7).jpg"
                 alt="людина друкує на клавіатурі"
                 width="370"
               />
             </li>
             <li class="work-example">
-              <img class="work-image"
+              <img 
                 src="./images/our-work/img(1)(1).jpg"
                 alt="людина дивиться на телефон"
                 width="370"
               />
             </li>
             <li class="work-example">
-              <img class="work-image"
+              <img
                 src="./images/our-work/img(2)(1).jpg"
                 alt="людина дивиться на планшет"
                 width="370"
@@ -106,9 +108,9 @@
         </div>
       </section>
 
-      <section class="section with-padding team">
+      <section class="section team-section">
         <!--Team-->
-        <div class="container with-padding">
+        <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team list">
             <li class="team-member">
@@ -117,13 +119,14 @@
                 alt="чоловік з бородой в окулярах в коричневій рубашці"
                 width="270"
               />
-              <h3 class="section-subtitle">Игорь Демьяненко</h3>
-              <p class="team-member-description">Product Designer</p>
+              <div class="team-text">  <h3 class="section-subtitle">Игорь Демьяненко</h3>
+                <p class="team-member-description">Product Designer</p></div>
+            
             </li>
             <li class="team-member">
               <img  class="photo"src="./images/our-team/img(4)(1).jpg" alt="жінка в окулярах" width="270" />
-              <h3 class="section-subtitle">Ольга Репина</h3>
-              <p class="team-member-description">Frontend Developer</p>
+             <div class="team-text"><h3 class="section-subtitle">Ольга Репина</h3>
+              <p class="team-member-description">Frontend Developer</p></div> 
             </li>
 
             <li class="team-member">
@@ -132,8 +135,8 @@
                 alt="чоловік у блакитній рубашці"
                 width="270"
               />
-              <h3 class="section-subtitle">Николай Тарасов</h3>
-              <p class="team-member-description">Marketing</p>
+              <div class="team-text"><h3 class="section-subtitle">Николай Тарасов</h3>
+                <p class="team-member-description">Marketing</p></div>
             </li>
             <li class="team-member">
               <img class="photo"
@@ -141,8 +144,9 @@
                 alt="чоловік з бородой в окулярах в чорній футболці "
                 width="270"
               />
-              <h3 class="section-subtitle">Михаил Ермаков</h3>
-              <p class="team-member-description">UI Designer</p>
+              <div class="team-text"> <h3 class="section-subtitle">Михаил Ермаков</h3>
+                <p class="team-member-description">UI Designer</p></div>
+             
             </li>
           </ul>
         </div>
