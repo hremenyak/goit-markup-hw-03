@@ -70,7 +70,9 @@ img{
   padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;
 }
-
+.page-header-container{
+  display: flex;
+}
 .logo {
   
   color: var(--accent-color);
